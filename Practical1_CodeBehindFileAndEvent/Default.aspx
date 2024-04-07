@@ -28,9 +28,12 @@
             </tr>
             <tr>
                 <td class="style1">
-                    &nbsp;</td>
+                    <asp:Label ID="Label2" runat="server" BackColor="#0066FF" ForeColor="Yellow" 
+                        Text="Enter Father Name :"></asp:Label>
+                </td>
                 <td>
-                    &nbsp;</td>
+                    <asp:TextBox ID="txtFatherName" runat="server" Width="220px"></asp:TextBox>
+                </td>
             </tr>
             <tr>
                 <td class="style1">
@@ -48,6 +51,8 @@
             <tr>
                 <td class="style1">
                     <asp:Label ID="lblName" runat="server" Text="Label"></asp:Label>
+&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblFatherName" runat="server" Text="Label"></asp:Label>
                 </td>
                 <td>
                     &nbsp;</td>
