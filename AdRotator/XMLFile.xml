@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+
+  <Ad>
+    <ImageUrl>images.jpeg</ImageUrl>
+    <NavigateUrl>http://localhost:59114/AdRotator/Default.aspx</NavigateUrl>
+    <height>200</height>
+    <width>150</width>
+  </Ad>
+  
+  
+  
+</Advertisements>
