@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/download.png</ImageUrl>
+    <NavigateUrl>https://www.google.com/</NavigateUrl>
+    <Height>100</Height>
+    <Width>500</Width>
+  </Ad>
+  
+  
+</Advertisements>
+
+
+
