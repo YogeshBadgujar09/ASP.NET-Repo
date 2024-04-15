@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Wishes</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+    button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    .highlight {
+        font-weight: bold;
+        color: #ff0000;
+    }
+</style>
+</head>
+<body>
+<h1>Application for Special Person !!</h1>
+<p>Do you Know the person who sent the application ?</p>
+
+<button id="yesButton">Yes</button>
+<button id="noButton">No</button>
+
+<script>
+    document.getElementById("yesButton").addEventListener("click", function() {
+        var senderName = prompt("Enter your name :");
+        if (senderName !== null && senderName !== "") {
+            var message = "Dear " + senderName + ", \n\n Bohat dino se aapko ek baat batana chahta tha, par aapko kaise batau ye soch ta tha aur darta bhi tha ki aap mere bare me kya sochonge. " + 
+            "Mujhe pata hai aaj ka din aapke liye khass hai aur ummid kar raha hu ki , aapko meri baat achhi nahi lagi to aap mujhe maaf kar donge. " + "Dekho mera koi galat intention nahi hai, To mujhe gaaliya mat dena." +
+            "Aur dekho kisiko batana mat ki, mene aapse ye baat kahi hai. " + "Meri izzat ka swaal hai , Me apne dil me koi baat nahi rakhta,Ye tumhe bhi pata hai." +
+            " So bata de raha hu , Dhyan se Suno " +
+            "\n\nYaar aap MakeUp kam lagaya karo , wo kya hai aap MakeUp lagati ho to pasine se nikalne lagta hai,n Aur aage bolne ki jarurat nahi ki aap usme kaise dikhti ho. " +
+            "To ummid kar raha hu aap samj rahi ho, Aur agli baar limit me MakeUp karonge. " +"\n\nAur ha suna hai aaj Aapka BirthDay hai.So " + "\n\nWISH YOU MANY MANY HAPPY RETURNS OF THE DAY." + "\n\nSorry 😊😊" + "\n\n      FROM\nYOGESH BADGUJAR";
+            alert(message);
+            var feedback = prompt("Kaisa laga Mera Majak ?");
+            if (feedback !== null && feedback !== "") {
+                alert("Thanks for your feedback! 😊");
+            }
+        }  
+    });
+
+    document.getElementById("noButton").addEventListener("click", function() {
+        alert("Are yarr yaad karo , accha banda hai , bhola hai, Single hai, Simple hai, Shayri karta hai, kuch Yaad aaaya 🙂 ??");
+    });
+</script>
+</body>
+</html>
