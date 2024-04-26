@@ -80,7 +80,8 @@
                 <td class="style1">
                     &nbsp;</td>
                 <td align="center" class="style2">
-                    <asp:Button ID="btnSignUp" runat="server" Text="SignUp" />
+                    <asp:Button ID="btnSignUp" runat="server" Text="SignUp" 
+                        onclick="btnSignUp_Click" />
                 </td>
                 <td>
                     &nbsp;</td>
