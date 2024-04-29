@@ -26,12 +26,12 @@ namespace WebApplication1
         {
             // Step 2 - DataBase Connection
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-UQHOF3G\\SQLEXPRESS;Initial Catalog=RegistrationSignUp;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-UQHOF3G\\SQLEXPRESS;Initial Catalog=RegistrationSignUp;Integrated Security=True");
             con.Open();
 
             // Step 3 - create Command Object 
 
-            SqlCommand cmd = new SqlCommand("insert into SignUp values(" + txtGmail.Text + " , " + txtPassword.Text + " ," + txtConfirmPassword.Text + ")");
+            SqlCommand cmd = new SqlCommand("insert into SignUpData values('yogeshsb18@gmail.com','12345','12345')",con);
             cmd.ExecuteNonQuery();
             con.Close();
         }
